@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T09:33:34 GMT+03:00" name="Default suite" finished-at="2024-11-12T09:35:32 GMT+03:00" duration-ms="117512">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T09:33:34 GMT+03:00" name="Default test" finished-at="2024-11-12T09:35:32 GMT+03:00" duration-ms="117512">
+      <class name="ALmosaferProject">
+        <test-method is-config="true" signature="BeforeTests()[pri:0, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:34 GMT+03:00" name="BeforeTests" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTests -->
+        <test-method signature="Languages()[pri:1, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Languages" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Languages -->
+        <test-method signature="Curancy()[pri:2, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Curancy" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Curancy -->
+        <test-method signature="Number()[pri:3, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Number" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Number -->
+        <test-method signature="Logo()[pri:4, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Logo" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method signature="HotelSearchTab()[pri:5, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="HotelSearchTab" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchTab -->
+        <test-method signature="Tomorrow()[pri:6, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Tomorrow" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tomorrow -->
+        <test-method signature="DayAfterTomorrow()[pri:7, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="DayAfterTomorrow" finished-at="2024-11-12T09:33:41 GMT+03:00" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DayAfterTomorrow -->
+        <test-method signature="Randomlanguages()[pri:8, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:41 GMT+03:00" name="Randomlanguages" finished-at="2024-11-12T09:33:43 GMT+03:00" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Randomlanguages -->
+        <test-method signature="Locatin()[pri:9, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:43 GMT+03:00" name="Locatin" finished-at="2024-11-12T09:33:49 GMT+03:00" duration-ms="5805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Locatin -->
+        <test-method signature="Guests()[pri:10, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:33:49 GMT+03:00" name="Guests" finished-at="2024-11-12T09:34:02 GMT+03:00" duration-ms="12668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guests -->
+        <test-method signature="Download()[pri:11, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:34:02 GMT+03:00" name="Download" finished-at="2024-11-12T09:35:32 GMT+03:00" duration-ms="90066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download -->
+        <test-method signature="SortOption()[pri:12, instance:ALmosaferProject@ccb4b1b]" started-at="2024-11-12T09:35:32 GMT+03:00" name="SortOption" finished-at="2024-11-12T09:35:32 GMT+03:00" duration-ms="7" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Duplicate local variable ClassSotr
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Duplicate local variable ClassSotr
+
+at ALmosaferProject.SortOption(ALmosaferProject.java:156)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortOption -->
+      </class> <!-- ALmosaferProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
